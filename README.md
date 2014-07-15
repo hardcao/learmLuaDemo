@@ -15,5 +15,5 @@ mac 安装lua：
 
 mac上lua和c++的简单交互:
     1 在hello.lua文件的文件夹中，编写hello.cpp
-    2 用命令 g++ -llua test.cpp -o test
+    2 用命令 g++ -llua hello.cpp -o holle
     3 运行./test就行了
