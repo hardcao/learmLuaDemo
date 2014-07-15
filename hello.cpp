@@ -11,7 +11,7 @@ int main(int argc, const char * argv[])
   luaopen_base(L);
   luaL_openlibs(L);
 
-  int ret = luaL_dofile(L, "test.lua");
+  int ret = luaL_dofile(L, "hello.lua");
   if (ret != 0)
     {
       printf("load test.lua failed");
